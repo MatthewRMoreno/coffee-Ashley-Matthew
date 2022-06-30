@@ -8,44 +8,23 @@
 </head>
 <body>
     <h1 class="text-center">Coffee!</h1>
-    <div class="container">
-        <div class="col-6 form-control">
-            <form>
-                <label for="roast-selection">Roast</label>
-                <select id="roast-selection" class="form-select">
-                    <option>light</option>
-                    <option>medium</option>
-                    <option>dark</option>
-                </select>
-            </form>
-            <label for="exampleDataList" class="form-label">Coffee Name</label>
-            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-            <datalist id="datalistOptions">
-                <option value="French">
-                <option value="Italian">
-                <option value="Viennese">
-                <option value="Espresso">
-                <option value="European">
-                <option value="New Orleans">
-                <option value="Continental">
-                <option value="High">
-                <option value="Breakfast">
-                <option value="American">
-                <option value="City">
-                <option value="Cinnamon">
-                <option value="Half-city">
-                <option value="Light-city">
-            </datalist>
-            <input id="submit" type="submit" />
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="col-6">
-            <div><h1></h1><p>ROAST</p></div>
+        <hr>
 
-            <h1 id="coffees"></h1>
+    <form>
+        <label for="roast-selection"></label>
+        <select id="roast-selection">
+            <option>light</option>
+            <option>medium</option>
+            <option>dark</option>
+        </select>
+        <input id="submit" type="submit" />
+    </form>
+
+    <div id="container">
+        <div id="coffees">
         </div>
     </div>
-    <script src="main.js"></script>
+
+<script src="main.js"></script>
 </body>
 </html>
