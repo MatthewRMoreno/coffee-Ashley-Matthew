@@ -15,19 +15,41 @@
             <div class="col 6">
                 <div id="container">
                     <div id="coffees">
+<!--                        rendered html from js goes here-->
                     </div>
                 </div>
             </div>
             <div class="col 6">
                 <form>
-                    <label for="roast-selection"></label>
-                    <select id="roast-selection">
+                    <label>Roast</label>
+                    <select class="form-select" id="roast-selection">
                         <option>light</option>
                         <option>medium</option>
                         <option>dark</option>
                     </select>
+
+
+                    <label>Coffee Name</label>
+                    <input type="text" class="form-control" list="datalistOptions" id="exampleDataList">
+                    <datalist id="datalistOptions">
+                        <option value="San Francisco">
+                        <option value="New York">
+                        <option value="Seattle">
+                        <option value="Los Angeles">
+                        <option value="Chicago">
+                    </datalist>
+
+
+
+
+<!--                    <label for="roast-selection"></label>-->
+<!--                    <select id="roast-selection">-->
+
+<!--                    </select>-->
+
                     <input id="submit" type="submit" />
                 </form>
+                <hr>
             </div>
         </div>
     </div>
