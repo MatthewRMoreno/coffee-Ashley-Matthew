@@ -10,20 +10,30 @@
     <h1 class="text-center">Coffee!</h1>
         <hr>
 
-    <form>
-        <label for="roast-selection"></label>
-        <select id="roast-selection">
-            <option>light</option>
-            <option>medium</option>
-            <option>dark</option>
-        </select>
-        <input id="submit" type="submit" />
-    </form>
-
-    <div id="container">
-        <div id="coffees">
+    <div class = "container">
+        <div class="row">
+            <div class="col 6">
+                <div id="container">
+                    <div id="coffees">
+                    </div>
+                </div>
+            </div>
+            <div class="col 6">
+                <form>
+                    <label for="roast-selection"></label>
+                    <select id="roast-selection">
+                        <option>light</option>
+                        <option>medium</option>
+                        <option>dark</option>
+                    </select>
+                    <input id="submit" type="submit" />
+                </form>
+            </div>
         </div>
     </div>
+
+
+
 
 <script src="main.js"></script>
 </body>
