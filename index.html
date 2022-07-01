@@ -21,16 +21,16 @@
             </div>
             <div class="col 6">
                 <form>
-                    <label>Roast</label>
-                    <select class="form-select" id="roast-selection">
+                    <label class="mb-1 fw-bold" for="roast-selection">Roast</label>
+                    <select class="col-12 form-select" id="roast-selection">
                         <option>light</option>
                         <option>medium</option>
                         <option>dark</option>
                     </select>
-<!--                    input that we need to make searchable with the coffee names-->
-                    <input type="text">
+                    <label class="mt-2 mb-1 fw-bold" for="coffee-name">Coffee Name</label>
+                    <input class="col-12" id="coffee-name" type="text">
                     <br>
-                    <div class="d-grid gap-2">
+                    <div class="col-12 mt-3 d-grid gap-2">
                         <button class="btn btn-primary" input id= "submit" type="submit">Get Caffeinated</button>
                     </div>
                 </form>
