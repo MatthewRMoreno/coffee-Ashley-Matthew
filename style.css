@@ -21,4 +21,9 @@ td, th {
     border: 1px solid black;
     padding: 5px 10px;
 }
+/*this how you override bootsrap classes*/
+.btn-purple {
+    color: white;
+    background-color: #953553;
+}
 
