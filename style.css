@@ -1,5 +1,6 @@
 body {
     height: 100vh;
+    /*background-color: moccasin;*/
 }
 /* row color */
 div.row {
@@ -12,18 +13,17 @@ div.row > div {
 div.tall-row {
     height: 300px;
 }
-table {
-    border-collapse: collapse;
-    margin: 15px 0;
-}
-
-td, th {
-    border: 1px solid black;
-    padding: 5px 10px;
-}
-/*this how you override bootsrap classes*/
+/*this is how you override bootstrap classes*/
 .btn-purple {
     color: white;
     background-color: #953553;
 }
-
+.main-header {
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    
+}

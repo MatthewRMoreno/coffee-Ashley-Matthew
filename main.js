@@ -29,19 +29,15 @@ function updateCoffees(e) {
     });
     tbody.innerHTML = renderCoffees(filteredCoffees);
 }
-// function addNewCoffee(e) {
-//     e.preventDefault();
-//     let newId = coffees.length + 1;
-//     let newName = coffeeAdd.value;
-//     let newRoast = roastAdd.value;
-//     coffees.push({id: newId, name: newName, roast: newRoast});
-// }
-function searchCoffees () {
-    // re
-    // let searchedCoffeeNames = coffeeNames.value;
-    // console.log(coffeeNames.value);
+function addNewCoffee() {
+    let newId = coffees.length + 1;
+    coffees.id.push(newId)
+    let newName = addCoffee.value;
+    coffees.name.push(newName)
+    let newRoast = addRoast.value;
+    coffees.roast.push(newRoast)
+    // coffees.push({id: newId, name: newName, roast: newRoast});
 }
-
 
 // function updateNames(x) {
 //     x.preventDefault();
@@ -71,7 +67,9 @@ let submitButton = document.querySelector('#submit');
 let roastSelection = document.querySelector('#roast-selection');
 let coffeeNames = document.querySelector('#coffee-name');
 //created var here rather than in function to call later
-// let searchedCoffeeNames = coffeeNames.value;
+let submitButton2 = document.querySelector('#submit-2');
+let addCoffee = document.querySelector('#add-name');
+let addRoast = document.querySelector('#add-roast');
 
 tbody.innerHTML = renderCoffees(coffees);
 
