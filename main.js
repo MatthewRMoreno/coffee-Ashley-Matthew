@@ -31,12 +31,14 @@ function updateCoffees(e) {
 }
 function addNewCoffee() {
     let newId = coffees.length + 1;
-    coffees.id.push(newId)
+    // coffees.id.push(newId)
     let newName = addCoffee.value;
-    coffees.name.push(newName)
+    // coffees.name.push(newName)
     let newRoast = addRoast.value;
-    coffees.roast.push(newRoast)
-    // coffees.push({id: newId, name: newName, roast: newRoast});
+    // coffees.roast.push(newRoast)
+    coffees.push({id: newId, name: newName, roast: newRoast});
+    console.log(coffees);
+    tbody.innerHTML = renderCoffees(coffees);
 }
 
 // function updateNames(x) {
