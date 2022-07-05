@@ -29,22 +29,15 @@ function updateCoffees(e) {
     });
     tbody.innerHTML = renderCoffees(filteredCoffees);
 }
+
 function addNewCoffee() {
     let newId = coffees.length + 1;
-    // coffees.id.push(newId)
     let newName = addCoffee.value;
-    // coffees.name.push(newName)
     let newRoast = addRoast.value;
-    // coffees.roast.push(newRoast)
     coffees.push({id: newId, name: newName, roast: newRoast});
     console.log(coffees);
     tbody.innerHTML = renderCoffees(coffees);
 }
-
-// function updateNames(x) {
-//     x.preventDefault();
-//     let selectedName =
-// }
 
 // from http://www.ncausa.org/About-Coffee/Coffee-Roasts-Guide
 let coffees = [
@@ -69,7 +62,6 @@ let submitButton = document.querySelector('#submit');
 let roastSelection = document.querySelector('#roast-selection');
 let coffeeNames = document.querySelector('#coffee-name');
 //created var here rather than in function to call later
-let submitButton2 = document.querySelector('#submit-2');
 let addCoffee = document.querySelector('#add-name');
 let addRoast = document.querySelector('#add-roast');
 
