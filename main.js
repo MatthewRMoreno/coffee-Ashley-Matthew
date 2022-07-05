@@ -10,7 +10,7 @@ function renderCoffee(coffee) {
 
 function renderCoffees(coffees) {
     let html = '';
-    for(let i = coffees.length - 1; i >= 0; i--) {
+    for(let i = 0; i <= coffees.length - 1; i++) {
         html += renderCoffee(coffees[i]);
     }
     return html;
@@ -29,7 +29,13 @@ function updateCoffees(e) {
     });
     tbody.innerHTML = renderCoffees(filteredCoffees);
 }
-
+// function addNewCoffee(e) {
+//     e.preventDefault();
+//     let newId = coffees.length + 1;
+//     let newName = coffeeAdd.value;
+//     let newRoast = roastAdd.value;
+//     coffees.push({id: newId, name: newName, roast: newRoast});
+// }
 function searchCoffees () {
     // re
     // let searchedCoffeeNames = coffeeNames.value;
