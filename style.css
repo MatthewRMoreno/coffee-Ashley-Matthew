@@ -21,10 +21,12 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 .btn-primary {
     color: #0bffe6;
     background-color: #df0772;
 }
+
 .main-header {
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 100px;
@@ -32,18 +34,25 @@ body {
     justify-content: center;
     color: #df0772;
 }
+
 a:hover {
     background-color: #df0772;
 }
-.navbar {
+
+.navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    font-family: 'Rubik Moonrocks';
+    font-size: 25px;
+    color: #fffdff;
 }
+
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Rubik Moonrocks';
     font-size: 25px;
     color: #fffdff;
 }
+
 h1, h2 {
    color: #df0772;
     font-family: 'Rubik Moonrocks';
@@ -58,4 +67,7 @@ h1, h2 {
  form {
      font-family: 'Rubik Moonrocks';
      font-size: 25px;
+ }
+ .RocketLogo {
+     float: left;
  }
