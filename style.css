@@ -1,28 +1,61 @@
+/*body {*/
+/*    height: 100vh;*/
+/*    background-color: #E6E0BB;*/
+/*}*/
+/*!* row color *!*/
+/*div.row {*/
+/*    border: 1px dashed blue;*/
+/*}*/
+/*!* cell color *!*/
+/*div.row > div {*/
+/*    border: 1px solid red;*/
+/*}*/
+/*div.tall-row {*/
+/*    height: 300px;*/
+/*}*/
 body {
-    height: 100vh;
-    background-color: #E6E0BB;
+    background-attachment: fixed;
+    color: #0bffe6;
+    background-image: url("img/rocket2.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-/* row color */
-div.row {
-    border: 1px dashed blue;
-}
-/* cell color */
-div.row > div {
-    border: 1px solid red;
-}
-div.tall-row {
-    height: 300px;
-}
-/*this is how you override bootstrap classes*/
-.btn-purple {
-    color: white;
-    background-color: #953553;
+.btn-primary {
+    color: #0bffe6;
+    background-color: #df0772;
 }
 .main-header {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 100px;
     display: flex;
     justify-content: center;
+    color: #df0772;
+}
+a:hover {
+    background-color: #df0772;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
 }
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Rubik Moonrocks';
+    font-size: 25px;
+    color: #fffdff;
+}
+h1, h2 {
+   color: #df0772;
+    font-family: 'Rubik Moonrocks';
+    font-size: 50px;
+}
+
+ p {
+    color: #0bffe6;
+     font-family: 'Rubik Moonrocks';
+     font-size: 25px;
+}
+ form {
+     font-family: 'Rubik Moonrocks';
+     font-size: 25px;
+ }
