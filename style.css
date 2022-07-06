@@ -40,8 +40,6 @@ a:hover {
 }
 
 .navbar{
-    display: flex;
-    justify-content:space-between;
     font-family: 'Rubik Moonrocks';
     font-size: 25px;
     color: #fffdff;
@@ -70,4 +68,8 @@ h1, h2 {
  }
  .RocketLogo {
      float: left;
+ }
+ .my-flex {
+     display: flex;
+     justify-content: space-between;
  }
