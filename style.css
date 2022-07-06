@@ -94,7 +94,7 @@ h2 {
     height: 75% !important;
 }
 .Coffee-names {
-    column-count: 2;
+    /*column-count: 2;*/
 }
 .list-label {
     -webkit-text-stroke: 1px #E6E0BB;
