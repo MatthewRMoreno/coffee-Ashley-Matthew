@@ -86,15 +86,30 @@ h2 {
 }
 .google-maps iframe {
     position: absolute;
+    margin-right: 220px;
     top: 80px;
     left: 230px;
+    right: 200px;
     width: 75% !important;
     height: 75% !important;
 }
 .Coffee-names {
-    background: rgba(0, 0, 0.2, 0.2);
-    background-size: 20px, 20px;
+    column-count: 2;
 }
 .list-label {
     -webkit-text-stroke: 1px #E6E0BB;
+}
+.about-text {
+    color: white;
+    font-size: 20px;
+    background-image: url("img/takeoff.gif");
+    background-position: center;
+    margin-right: 220px;
+    margin-left: 220px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.about {
+    color: white;
+    text-decoration:underline;
 }
