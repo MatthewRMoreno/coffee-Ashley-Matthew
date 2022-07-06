@@ -9,44 +9,40 @@
 </head>
 <body>
     <img class="RocketLogo" src="img/RocketLogo.png">
-    <h1 class="main-header db-flex justify-content-center"><img src="">Rocket Roasts</h1>
-    <nav class="navbar navbar-expand navbar-light fw-bold">
-        <ul class="navbar-nav my-flex">
-            <li class="nav-item">
-                <a class="nav-link" href="#">REWARDS</a>
-            </li>
-            <li class="nav-item">
+    <div class="main-header"><img src="">Rocket Roasts</div>
+        <div class="my-flex">
+            <div class="nav-item">
+                <a class="nav-link" href="#location">LOCATION</a>
+            </div>
+            <div class="nav-item">
                 <a class="nav-link" href="#">GIFT CARDS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">BLOG</a>
-            </li>
-            <li class="nav-item">
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+            </div>
+            <div class="nav-item">
                 <a class="nav-link" href="#">CONTACT</a>
-            </li>
-        </ul>
-    </nav>
-        <hr>
+            </div>
+        </div>
+    <hr>
     <div class = "container">
         <div class="row">
             <div class="col 6">
                 <div class="Coffee-names"id="container">
                     <div id="coffees">
-<!--                        rendered html from js goes here-->
                     </div>
                 </div>
             </div>
             <div class="col 6">
-                <h2 class="text-center">Pick a Coffee</h2>
+                <h2 class="list-label text-center">Pick a Coffee</h2>
                 <form>
-                    <label class="mb-1 fw-bold" for="roast-selection">Roast</label>
+                    <label class="labels mb-1 fw-bold" for="roast-selection">Roast</label>
                     <select class="col-12 form-select" id="roast-selection">
-<!--                        <option>all</option>-->
                         <option>light</option>
                         <option>medium</option>
                         <option>dark</option>
                     </select>
-                    <label class="mt-2 mb-1 fw-bold" for="coffee-name">Coffee Name</label>
+                    <label class="labels mt-2 mb-1 fw-bold" for="coffee-name">Coffee Name</label>
                     <input class="col-12" id="coffee-name" type="text">
                     <br>
                     <div class="col-12 mt-3 d-grid gap-2">
@@ -54,16 +50,16 @@
                     </div>
                 </form>
                 <hr>
-                <h2 class="text-center">Add a New Coffee</h2>
+                <h2 class="list-label text-center">Add a New Coffee</h2>
                 <form>
-                    <label class="mb-1 fw-bold" for="add-roast">Roast</label>
+                    <label class="labels mb-1 fw-bold" for="add-roast">Roast</label>
                     <select class="col-12 form-select" id="add-roast">
 <!--                        <option>all</option>-->
                         <option>light</option>
                         <option>medium</option>
                         <option>dark</option>
                     </select>
-                    <label class="mt-2 mb-1 fw-bold" for="add-name">New Coffee Name</label>
+                    <label class="labels mt-2 mb-1 fw-bold" for="add-name">New Coffee Name</label>
                     <input class="col-12" id="add-name" type="text">
                     <div class="col-12 mt-3 d-grid gap-2">
                         <button class="btn btn-primary" onclick="addNewCoffee()" type="submit">Fuel Up!</button>
@@ -71,6 +67,11 @@
                 </form>
             </div>
         </div>
+    </div>
+    <hr>
+    <div id="location" class="google-maps row">
+        <h2 class="loc text-center">Location</h2>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.211043994598!2d-98.53959898457796!3d29.393381682123835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c591989fa8633%3A0xe041707327fadb31!2sSaturn%20St%2C%20San%20Antonio%2C%20TX%2078226!5e0!3m2!1sen!2sus!4v1657123670036!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
 

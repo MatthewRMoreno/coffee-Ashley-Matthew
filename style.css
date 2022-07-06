@@ -1,21 +1,12 @@
-/*body {*/
-/*    height: 100vh;*/
-/*    background-color: #E6E0BB;*/
-/*}*/
-/*!* row color *!*/
-/*div.row {*/
-/*    border: 1px dashed blue;*/
-/*}*/
-/*!* cell color *!*/
-/*div.row > div {*/
-/*    border: 1px solid red;*/
-/*}*/
-/*div.tall-row {*/
-/*    height: 300px;*/
+/*colors{*/
+/*    #0bffe6 blue color*/
+/*    #df0772 pink color*/
+/*    #635136 brown color*/
+/*    #E6E0BB tan color*/
 /*}*/
 body {
     background-attachment: fixed;
-    color: #0bffe6;
+    color: #E6E0BB;
     background-image: url("img/rocket2.gif");
     background-repeat: no-repeat;
     background-position: center;
@@ -23,53 +14,87 @@ body {
 }
 
 .btn-primary {
-    color: #0bffe6;
-    background-color: #df0772;
+    color: white;
+    background-color: #635136;
 }
 
 .main-header {
     font-family: 'Rubik Moonrocks', cursive;
-    font-size: 100px;
+    font-size: 98px;
     display: flex;
     justify-content: center;
-    color: #df0772;
+    color: #635136;
+    /*color: #df0772;*/
+    background: #E6E0BB;
 }
 
 a:hover {
-    background-color: #df0772;
+    background-color: #635136;
+    color: lightslategray;
 }
 
-.navbar{
+h1 {
+    color: #635136;
     font-family: 'Rubik Moonrocks';
-    font-size: 25px;
-    color: #fffdff;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    font-family: 'Rubik Moonrocks';
-    font-size: 25px;
-    color: #fffdff;
-}
-
-h1, h2 {
-   color: #df0772;
+h2 {
+   color: #635136;
     font-family: 'Rubik Moonrocks';
     font-size: 50px;
 }
 
  p {
-    color: #0bffe6;
+    color: #E6E0BB;
      font-family: 'Rubik Moonrocks';
      font-size: 25px;
 }
+
  form {
      font-family: 'Rubik Moonrocks';
      font-size: 25px;
  }
+
  .RocketLogo {
      float: left;
+     height: 200px;
+     width: 205px;
  }
- .my-flex {
+
+ .my-flex{
      display: flex;
-     justify-content: space-between;
+     justify-content: space-evenly;
+     font-family: 'Rubik Moonrocks';
+     font-size: 25px;
+     background: #E6E0BB;
  }
+
+ .nav-link {
+     color: white;
+ }
+
+.loc {
+    color: white;
+    text-decoration: underline;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 40%;
+    height: 0;
+    /*overflow: hidden;*/
+}
+.google-maps iframe {
+    position: absolute;
+    top: 80px;
+    left: 230px;
+    width: 75% !important;
+    height: 75% !important;
+}
+.Coffee-names {
+    background: rgba(0, 0, 0.2, 0.2);
+    background-size: 20px, 20px;
+}
+.list-label {
+    -webkit-text-stroke: 1px #E6E0BB;
+}
